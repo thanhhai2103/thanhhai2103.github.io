@@ -1,0 +1,237 @@
+/* ========== BASE ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Orbitron', sans-serif;
+  background: #0a0a23;
+  color: #e2e8f0;
+  line-height: 1.6;
+  padding-bottom: 100px;
+}
+
+/* ========== NAVBAR ========== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background: #0f172a;
+  border-bottom: 1px solid #1e293b;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.logo {
+  font-size: 1.5rem;
+  color: #f43f5e;
+  font-weight: 700;
+}
+.logo span {
+  color: #fff;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #94a3b8;
+  transition: 0.3s;
+}
+nav ul li a:hover {
+  color: #f43f5e;
+}
+
+/* ========== INTRO ========== */
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 2rem;
+}
+.intro-text {
+  max-width: 500px;
+}
+.intro-text h1 {
+  font-size: 2.5rem;
+  color: #fff;
+}
+.intro-text span {
+  color: #f43f5e;
+}
+.intro-text p {
+  margin-top: 1rem;
+  color: #94a3b8;
+}
+.buttons {
+  margin-top: 1.5rem;
+}
+.btn {
+  text-decoration: none;
+  border: 1px solid #fff;
+  padding: 0.75rem 1.25rem;
+  margin-right: 1rem;
+  border-radius: 4px;
+  color: white;
+  transition: 0.3s;
+}
+.btn:hover {
+  background: white;
+  color: #0a0a23;
+}
+.btn.red {
+  background: #f43f5e;
+  border: none;
+}
+.intro-img img {
+  max-width: 220px;
+  border-radius: 12px;
+  border: 3px solid #f43f5e;
+}
+
+/* ========== SECTION TITLE ========== */
+.section-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem 0 2rem;
+  font-family: monospace;
+  font-size: 0.9rem;
+  color: #00ffcc;
+}
+.section-title .line {
+  flex: 1;
+  height: 1px;
+  background: #334155;
+  margin: 0 1rem;
+}
+.section-title .red-line {
+  background: linear-gradient(to right, #f43f5e, transparent);
+}
+.section-title .cyan-line {
+  background: linear-gradient(to left, #06b6d4, transparent);
+}
+.section-path {
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+/* ========== ABOUT ========== */
+.about-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 0 2rem;
+}
+.info-box {
+  flex: 1;
+  min-width: 250px;
+  background: #1e293b;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* ========== SKILLS ========== */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  padding: 0 2rem;
+}
+.skill-card {
+  background: #1e293b;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.skill-card h4 {
+  margin-bottom: 0.5rem;
+}
+.bar {
+  background: #334155;
+  height: 10px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.fill {
+  height: 100%;
+  background: #0ea5e9;
+}
+
+/* ========== RESUME ========== */
+.resume-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 0 2rem;
+}
+.resume-box {
+  flex: 1;
+  min-width: 300px;
+  background: #1e293b;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+/* ========== CONTACT FORM ========== */
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  background: #1e293b;
+  border: none;
+  color: white;
+  border-radius: 6px;
+}
+.contact-form button {
+  width: 100%;
+  background: #f43f5e;
+  border: none;
+  padding: 0.75rem;
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.contact-form button:hover {
+  background: #e11d48;
+}
+
+/* ========== FOOTER ========== */
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.85rem;
+  color: #64748b;
+  border-top: 1px solid #1e293b;
+  margin-top: 4rem;
+}
+.contact-info {
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 2rem;
+  background: #1e293b;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  color: #e2e8f0;
+  line-height: 1.8;
+}
+.contact-info i {
+  color: #0ea5e9;
+  margin-right: 0.5rem;
+}
