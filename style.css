@@ -235,3 +235,16 @@ footer {
   color: #0ea5e9;
   margin-right: 0.5rem;
 }
+.typing-text {
+  color: #f43f5e;
+  font-weight: bold;
+  white-space: nowrap;
+  border-right: 2px solid #f43f5e;
+  animation: blink 0.7s infinite step-end;
+}
+
+/* Hiệu ứng con trỏ nhấp nháy */
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
