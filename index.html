@@ -26,7 +26,7 @@
 
     <div class="intro">
       <div class="intro-text">
-        <h1>Hello, I'm <span>Lê Thanh Hải</span></h1>
+        <h1>Hello, I'm <span class="typing-text">Lê Thanh Hải</span></h1>
         <p>Student in Cybersecurity | SOC/NOC Enthusiast</p>
         <div class="buttons">
           <a href="#contact" class="btn red">Contact Me</a>
@@ -133,5 +133,25 @@
   <footer>
     <p>Lê Thanh Hải © 2025 – Designed for Cybersecurity</p>
   </footer>
+    <!-- TYPING EFFECT -->
+  <script>
+    const text = "Lê Thanh Hải";
+    const target = document.querySelector(".typing-text");
+    let i = 0;
+
+    function typeEffect() {
+      if (i < text.length) {
+        target.innerHTML += text.charAt(i);
+        i++;
+        setTimeout(typeEffect, 120);
+      }
+    }
+
+    window.addEventListener("load", () => {
+      target.innerHTML = "";
+      typeEffect();
+    });
+  </script>
+  
 </body>
 </html>
