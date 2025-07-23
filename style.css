@@ -181,36 +181,6 @@ nav ul li a:hover {
   border-radius: 10px;
 }
 
-/* ========== CONTACT FORM ========== */
-.contact-form {
-  max-width: 600px;
-  margin: auto;
-  padding: 2rem;
-}
-.contact-form input,
-.contact-form textarea {
-  width: 100%;
-  padding: 0.75rem 1rem;
-  margin-bottom: 1rem;
-  background: #1e293b;
-  border: none;
-  color: white;
-  border-radius: 6px;
-}
-.contact-form button {
-  width: 100%;
-  background: #f43f5e;
-  border: none;
-  padding: 0.75rem;
-  color: white;
-  border-radius: 6px;
-  font-weight: bold;
-  cursor: pointer;
-}
-.contact-form button:hover {
-  background: #e11d48;
-}
-
 /* ========== FOOTER ========== */
 footer {
   text-align: center;
