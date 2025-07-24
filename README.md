@@ -9,12 +9,12 @@ Welcome to my personal cybersecurity portfolio and CV website, showcasing my kno
 
 ## 🧠 Experience & Skills
 
-- 💻 Built a professional login system and personal profile page using HTML, CSS, and Tailwind CSS  
+- 💻  
 - 🔐 Solid foundational knowledge in cybersecurity, SOC, and NOC operations  
 - 🧪 Participated in CTF competitions in 5 categories: Forensics, Web, Crypto, Misc, and Pwn  
 - 📊 Experience in building monitoring systems using **Grafana** and **Prometheus**  
-- 🚀 Deployed personal site using GitHub Pages  
-- 🛠 Proficient in Git, GitHub, VS Code, and command-line workflows  
+- 🚀   
+- 🛠  
 
 ---
 
