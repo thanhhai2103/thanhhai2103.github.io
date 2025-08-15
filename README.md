@@ -3,7 +3,7 @@
 Welcome to my personal cybersecurity portfolio and CV website, showcasing my knowledge and technical skills in SOC (Security Operations Center) and NOC (Network Operations Center) analysis, as well as my frontend development abilities.
 
 ## 🔗 Live Website
-➡️ [[https://thanhhai2103.github.io](https://thanhhai2103.github.io/thanhhai.github.io/))
+➡️ [[https://thanhhai2103.github.io](https://thanhhai2103.github.io/))
 
 ---
 
