@@ -53,15 +53,20 @@ nav ul li a:hover {
 .intro {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 4rem 2rem;
+  gap: clamp(2rem, 5vw, 4.5rem);
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 4rem 2rem 3rem;
 }
 .intro-text {
-  max-width: 500px;
+  flex: 0 1 620px;
+  max-width: 620px;
 }
 .intro-text h1 {
-  font-size: 2.5rem;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.2;
   color: #fff;
 }
 .intro-text span {
@@ -69,16 +74,19 @@ nav ul li a:hover {
 }
 .intro-text p {
   margin-top: 1rem;
+  max-width: 640px;
   color: #94a3b8;
 }
 .buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
   margin-top: 1.5rem;
 }
 .btn {
   text-decoration: none;
   border: 1px solid #fff;
   padding: 0.75rem 1.25rem;
-  margin-right: 1rem;
   border-radius: 4px;
   color: white;
   transition: 0.3s;
@@ -91,8 +99,15 @@ nav ul li a:hover {
   background: #f43f5e;
   border: none;
 }
+.intro-img {
+  flex: 0 0 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .intro-img img {
-  max-width: 220px;
+  width: min(240px, 100%);
+  display: block;
   border-radius: 12px;
   border: 3px solid #f43f5e;
 }
@@ -122,6 +137,16 @@ nav ul li a:hover {
 .section-path {
   white-space: nowrap;
   font-weight: 500;
+}
+
+/* ========== INTER FONT FROM ABOUT DOWN ========== */
+.inter-content {
+  font-family: 'Inter', sans-serif;
+}
+.inter-content .section-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.03em;
 }
 
 /* ========== ABOUT ========== */
@@ -213,8 +238,35 @@ footer {
   animation: blink 0.7s infinite step-end;
 }
 
-/* Hiệu ứng con trỏ nhấp nháy */
 @keyframes blink {
-  50% { border-color: transparent; }
+  50% {
+    border-color: transparent;
+  }
 }
 
+/* ========== RESPONSIVE ========== */
+@media (max-width: 900px) {
+  .navbar {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .intro {
+    justify-content: flex-start;
+    gap: 2rem;
+  }
+
+  .intro-text {
+    flex-basis: 100%;
+  }
+
+  .intro-img {
+    flex-basis: 100%;
+    justify-content: flex-start;
+  }
+
+  .typing-text {
+    white-space: normal;
+    border-right: none;
+  }
+}
