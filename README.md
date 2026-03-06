@@ -9,12 +9,12 @@ Welcome to my personal cybersecurity portfolio and CV website, showcasing my kno
 
 ## 🧠 Experience & Skills
 
-- 💻  
-- 🔐 Solid foundational knowledge in cybersecurity, SOC, and NOC operations  
-- 🧪 Participated in CTF competitions in 5 categories: Forensics, Web, Crypto, Misc, and Pwn  
-- 📊 Experience in building monitoring systems using **Grafana** and **Prometheus**  
-- 🚀   
-- 🛠  
+- 💻 Red Teaming: Proficient in identifying and exploiting OWASP Top 10 vulnerabilities (SQLi, XSS, SSRF).
+- 🔐 Security Operations: Solid foundational knowledge in SOC and NOC operations with a focus on system hardening.
+- 🧪 CTF Competitor: Proven expertise across Forensics, Web, Crypto, Misc, and Pwn (Top 1 GDU-CTF, Top 23 CSCV).
+- 🚀 Malware Analysis & RE: Experienced in Reverse Engineering and analyzing malicious code behaviors.
+- 📊 Monitoring: Skilled in building real-time monitoring systems using Grafana, Prometheus, and ELK Stack.
+- 🛠 Infrastructure Security: Practical experience in configuring Firewalls (Cisco, Fortigate) and automating security with Ansible.
 
 ---
 
