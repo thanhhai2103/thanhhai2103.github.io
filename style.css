@@ -270,3 +270,32 @@ footer {
     border-right: none;
   }
 }
+/* ===== COMPETITION SLIDER ===== */
+
+.competition-slider {
+  max-width: 1100px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  display: none;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.slide.active {
+  display: flex;
+}
+
+.slide img {
+  width: 48%;
+  border-radius: 12px;
+  border: 2px solid #334155;
+  transition: transform 0.4s;
+}
+
+.slide img:hover {
+  transform: scale(1.05);
+}
