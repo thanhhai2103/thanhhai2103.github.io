@@ -1,4 +1,4 @@
-# 🌐 Lê Thanh Hải - SOC & NOC Analyst Portfolio
+# 🌐 Lê Thanh Hải - SOC & NOC Analyst - PRUPER TEAM
 
 Welcome to my personal cybersecurity portfolio and CV website, showcasing my knowledge and technical skills in SOC (Security Operations Center) and NOC (Network Operations Center) analysis, as well as my frontend development abilities.
 
