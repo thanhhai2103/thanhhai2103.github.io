@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lê Thanh Hải - Purple Team</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a2e8c4e70e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- HEADER -->
+  <header id="home">
+    <canvas id="animatedBackground"></canvas>
+    <div class="navbar">
+      <div class="logo">LE <span>THANH HAI</span></div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="intro">
+      <div class="intro-text">
+        <h1><span class="typing-text"></span></h1>
+        <p>Information Security Student | Cybersecurity Intern | Purple Team | SOC / NOC Enthusiast </p>
+        <div class="buttons">
+          <a href="#contact" class="btn red">Contact Me</a>
+          <a href="#resume" class="btn">My Resume</a>
+        </div>
+      </div>
+      <div class="intro-img">
+        <img src="images/avatar.png" alt="Lê Thanh Hải">
+      </div>
+    </div>
+  </header>
+
+<!-- ===== COMPETITION GALLERY ===== -->
+<section id="competition">
+
+  <div class="section-title">
+    <div class="line red-line"></div>
+    <div class="section-path">cd /competition_gallery</div>
+    <div class="line cyan-line"></div>
+  </div>
+
+  <div class="competition-slider">
+
+    <div class="slide active">
+      <img src="images/1.jpg" alt="competition">
+      <img src="images/2.jpg" alt="competition">
+    </div>
+
+    <div class="slide">
+      <img src="images/3.jpg" alt="competition">
+      <img src="images/4.jpg" alt="competition">
+    </div>
+
+    <div class="slide">
+      <img src="images/5.jpg" alt="competition">
+      <img src="images/6.jpg" alt="competition">
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="inter-content">
+  <div class="section-title">
+    <div class="line red-line"></div>
+    <div class="section-path">cd /about_section</div>
+    <div class="line cyan-line"></div>
+  </div>
+  <div class="about-grid">
+    <div class="info-box">
+      <h3>Personal Info</h3>
+      <p><strong>Name:</strong> Lê Thanh Hải</p>
+      <p><strong>Phone:</strong> 090513364</p>
+      <p><strong>Email:</strong> thanhhai.dakha@gmail.com</p>
+      <p><strong>Address:</strong> Phường 3, Gò Vấp, TP. Hồ Chí Minh</p>
+    </div>
+    <div class="info-box">
+      <h3>Professional Info</h3>
+      <p><strong>School:</strong> Đại học Gia Định</p>
+      <p><strong>Major:</strong> Công nghệ thông tin - An toàn thông tin</p>
+      <p><strong>GPA:</strong> 3.6</p>
+      <p><strong>Career Goal:</strong> Trở thành chuyên viên An ninh mạng có nền tảng kỹ thuật vững chắc và phản ứng nhanh với rủi ro bảo mật.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section id="projects" class="inter-content">
+  <div class="section-title">
+    <div class="line red-line"></div>
+    <div class="section-path">cd /project</div>
+    <div class="line cyan-line"></div>
+  </div>
+
+  <div class="projects-grid">
+    <div class="project-card">
+      <div class="project-header">
+        <h3>Reverse Proxy Security System with NGINX</h3>
+        <span class="project-date">01/2025 - 09/2025</span>
+      </div>
+      <p class="project-description">
+        Xây dựng hệ thống Reverse Proxy tích hợp Load Balancing, Rate Limiting, Fail2Ban và ModSecurity để bảo vệ dữ liệu trường Đại học Gia Định trước DDoS, brute-force và khai thác lỗ hổng web.
+      </p>
+      <div class="project-info">
+        <p><strong>Vai trò:</strong> Trưởng nhóm / Chủ nhiệm đề tài</p>
+        <p><strong>Công nghệ:</strong> NGINX, Load Balancing, Fail2Ban, ModSecurity</p>
+        <p><a href="" target="_blank" style="color: #0ea5e9; text-decoration: none;"><i class="fab fa-github"></i></a></p>
+      </div>
+      <div class="project-tags">
+        <span class="tag">Security</span>
+        <span class="tag">Network</span>
+        <span class="tag">DevOps</span>
+      </div>
+    </div>
+
+
+  </div>
+</section>
+  
+  <!-- SKILLS -->
+  <section id="skills" class="inter-content">
+    <div class="section-title">
+      <div class="line red-line"></div>
+      <div class="section-path">cd /skills_section</div>
+      <div class="line cyan-line"></div>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h4>SIEM: OSSIM / OSSEC / Wazuh / ELK</h4>
+        <div class="bar"><div class="fill" style="width: 80%;"></div></div>
+      </div>
+      <div class="skill-card">
+        <h4>Monitoring: Zabbix / Cacti / Prometheus / Grafana / Nagios</h4>
+        <div class="bar"><div class="fill" style="width: 80%;"></div></div>
+      </div>
+      <div class="skill-card">
+        <h4>Application Security & Hardening</h4>
+        <div class="bar"><div class="fill" style="width: 70%;"></div></div>
+      </div>
+      <div class="skill-card">
+        <h4>Digital Forensics: Autopsy / FTK Imager / Volatility</h4>
+        <div class="bar"><div class="fill" style="width: 50%;"></div></div>
+      </div>
+      <div class="skill-card">
+        <h4>Firewall: Cisco FirePower / Palo Alto / Fortigate / pfSense</h4>
+        <div class="bar"><div class="fill" style="width: 60%;"></div></div>
+      </div>
+      <div class="skill-card">
+        <h4>Honeypot & Honeynet: Cowrie / Dionaea / Honeyd / Snort</h4>
+        <div class="bar"><div class="fill" style="width: 70%;"></div></div>
+      </div>
+      <div class="skill-card">
+        <h4>Cryptography & PKI / SSL-TLS</h4>
+        <div class="bar"><div class="fill" style="width: 40%;"></div></div>
+      </div>
+      <div class="skill-card">
+        <h4>Python / Bash / Ansible Automation</h4>
+        <div class="bar"><div class="fill" style="width: 45%;"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESUME -->
+  <section id="resume" class="inter-content">
+    <div class="section-title">
+      <div class="line red-line"></div>
+      <div class="section-path">cd /resume_section</div>
+      <div class="line cyan-line"></div>
+    </div>
+    <div class="resume-grid">
+
+      <div class="resume-box">
+        <div class="resume-box-header">
+          <img src="images/experience.jpg" alt="Experience" class="resume-icon">
+          <h3>Experience</h3>
+        </div>
+        <p><strong>06/2025 - 03/2026:</strong> Thực tập tại Trung tâm Athena</p>
+        <p>Thực hiện case study, rèn luyện kỹ năng thực tế, làm quen với thiết bị và công nghệ doanh nghiệp, tổ chức và xử lý lỗi trong hệ thống.</p>
+      </div>
+
+      <div class="resume-box">
+        <div class="resume-box-header">
+          <img src="images/achievements.png" alt="Achievements" class="resume-icon">
+          <h3>Achievements</h3>
+        </div>
+        <p>- Top 1 GDU-CTF và user xuất sắc nhất giải</p>
+        <p>- Top 23 cuộc thi Sinh viên An ninh mạng CSCV 2025</p>
+        <p>- Top 48 FPTU SecAthon 2025</p>
+        <p>- Vào chung kết ASCIS, IT GOT TALENT 2024 và tham gia RMIT Hackathon 2025 GenAI & Cyber Security</p>
+      </div>
+
+      <div class="resume-box">
+        <div class="resume-box-header">
+          <img src="images/activities_scholarships.png" alt="Activities & Scholarships" class="resume-icon">
+          <h3>Activities & Scholarships</h3>
+        </div>
+        <p>Sinh viên tích cực khoa Công Nghệ Thông Tin 2024</p>
+        <p>Sinh viên có hoạt động học thuật năm học 2024 - 2025</p>
+        <p>Học bổng khuyến khích học tập năm học 2024 - 2025</p>
+        <p>Tình nguyện viên tập huấn chuyên trách hè Phường 3 2024</p>
+      </div>
+
+      <div class="resume-box">
+        <div class="resume-box-header">
+          <img src="images/competition_research.png" alt="Competition & Research" class="resume-icon">
+          <h3>Competition & Research</h3>
+        </div>
+        <p>Tham gia HCMUS-CTF 2025, SystemCTF 101 (2025), World Wide CTF 2025.</p>
+        <p>Tham gia vòng tuyển chọn 20 đội bán kết Univ.star 2025.</p>
+        <p>Tham gia nghiên cứu khoa học tại trường đại học.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="inter-content">
+    <div class="section-title">
+      <div class="line red-line"></div>
+      <div class="section-path">cd /contact_section</div>
+      <div class="line cyan-line"></div>
+    </div>
+    <div class="contact-info">
+      <p><strong><i class="fab fa-github"></i> GitHub:</strong> https://github.com/thanhhai2103</p>
+      <p><strong><i class="fas fa-envelope"></i> Email:</strong> thanhhai.dakha@gmail.com</p>
+      <p><strong><i class="fab fa-facebook"></i> Facebook:</strong> https://www.facebook.com/thanh.hai.97451</p>
+      <p><strong><i class="fab fa-discord"></i> Discord:</strong> Th4nhH4i</p>
+      <p><strong><i class="fas fa-map-marker-alt"></i> Address:</strong> Phường 3, Gò Vấp, TP. Hồ Chí Minh</p>
+    </div>
+  </section>
+
+  <footer class="inter-content">
+    <p>Lê Thanh Hải © 2025 – Designed for Cybersecurity</p>
+  </footer>
+
+  <!-- TYPING EFFECT -->
+  <script>
+    const fullText = "Hello, I'm Lê Thanh Hải";
+    const target = document.querySelector(".typing-text");
+    let i = 0;
+
+    function typeEffect() {
+      if (i < fullText.length) {
+        target.innerHTML += fullText.charAt(i);
+        i++;
+        setTimeout(typeEffect, 180);
+      }
+    }
+
+    window.addEventListener("load", () => {
+      target.innerHTML = "";
+      typeEffect();
+    });
+  </script>
+
+<script>
+
+let slides = document.querySelectorAll(".slide");
+let index = 0;
+
+function showSlides() {
+
+  slides.forEach(slide => slide.classList.remove("active"));
+
+  index++;
+
+  if (index >= slides.length) {
+    index = 0;
+  }
+
+  slides[index].classList.add("active");
+
+}
+
+setInterval(showSlides, 4000);
+
+</script>
+
+<!-- ANIMATED BACKGROUND -->
+<script>
+  const canvas = document.getElementById('animatedBackground');
+  const ctx = canvas.getContext('2d');
+
+  // Set canvas size
+  function resizeCanvas() {
+    canvas.width = canvas.offsetWidth;
+    canvas.height = canvas.offsetHeight;
+  }
+  resizeCanvas();
+  window.addEventListener('resize', resizeCanvas);
+
+  // Particle system
+  class Particle {
+    constructor() {
+      this.x = Math.random() * canvas.width;
+      this.y = Math.random() * canvas.height;
+      this.size = Math.random() * 2 + 0.5;
+      this.speedX = (Math.random() - 0.5) * 1;
+      this.speedY = (Math.random() - 0.5) * 1;
+      this.opacity = Math.random() * 0.5 + 0.2;
+    }
+
+    update() {
+      this.x += this.speedX;
+      this.y += this.speedY;
+
+      // Wrap around edges
+      if (this.x > canvas.width) this.x = 0;
+      if (this.x < 0) this.x = canvas.width;
+      if (this.y > canvas.height) this.y = 0;
+      if (this.y < 0) this.y = canvas.height;
+    }
+
+    draw() {
+      ctx.fillStyle = `rgba(6, 182, 212, ${this.opacity})`;
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+      ctx.fill();
+    }
+  }
+
+  // Create particles
+  const particles = [];
+  const particleCount = 100;
+  for (let i = 0; i < particleCount; i++) {
+    particles.push(new Particle());
+  }
+
+  // Draw connections between nearby particles
+  function drawConnections() {
+    const connectionDistance = 150;
+    for (let i = 0; i < particles.length; i++) {
+      for (let j = i + 1; j < particles.length; j++) {
+        const dx = particles[i].x - particles[j].x;
+        const dy = particles[i].y - particles[j].y;
+        const distance = Math.sqrt(dx * dx + dy * dy);
+
+        if (distance < connectionDistance) {
+          const opacity = (1 - distance / connectionDistance) * 0.2;
+          ctx.strokeStyle = `rgba(6, 182, 212, ${opacity})`;
+          ctx.lineWidth = 1;
+          ctx.beginPath();
+          ctx.moveTo(particles[i].x, particles[i].y);
+          ctx.lineTo(particles[j].x, particles[j].y);
+          ctx.stroke();
+        }
+      }
+    }
+  }
+
+  // Animation loop
+  function animate() {
+    // Clear canvas with semi-transparent background
+    ctx.fillStyle = 'rgba(10, 10, 35, 0.1)';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    // Update and draw particles
+    for (let particle of particles) {
+      particle.update();
+      particle.draw();
+    }
+
+    // Draw connections
+    drawConnections();
+
+    requestAnimationFrame(animate);
+  }
+
+  animate();
+</script>
+  
+</body>
+</html>
